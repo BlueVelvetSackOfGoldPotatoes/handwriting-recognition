@@ -6,6 +6,7 @@ Should data be prepared for word-classification, character or sentence classific
 """
 # Internal libs
 import json
+import numpy as np
 import os
 
 from model_metrics import model_comparision
@@ -20,6 +21,10 @@ def get_data(dic_path):
     return train_test_split(f.keys(), f.values(), test_size = 0.2, random_state = 42)
 
 def main():
+
+    data_vec = np.load("data/IAM-data/lists/final_data_lists.npy")
+    for vec in data_vec:
+
     # dic not ml ready (Done)
     # save_data_to_json("data/IAM-data/dic/sentence_no_processing_dictionary.json")
 
@@ -58,26 +63,5 @@ if __name__ == '__main__':
 
 """
 TODO - 
-PROBLEM - INTERNAL BOUNDING BOXES ARE BEING SAVED DESPITE USING HIGHEST HIERARCHY
-    1. Build general data pipeline (data loading, processing depending on task - get pixel values from images into vectors and keep that as the input data);
-        1.1 Divide sentences into words (both x and y)
-        1.2 Extract features from these sentences:
-            1.2.1 Geometrical data from each word
-            1.2.2 HOG
-            1.2.3 DCT
-            1.2.4 Length
-            1.2.5 Height
-            ...
-    2. What do svms expect?
-    3. What do time series expect?
-    4. What do HMM expect?
-    5. What do Bayesian techniques expect?
-    6. What does knn expect?
-    7. Use OCR for character extraction? Or process whole line?
-    8. Inform decision with a causal graph that encodes english syntactical rules / bayes?
-    9. Decide on size of images before saving them to dictionary
-    10. ASSEMBLY - SVM informed by feature vector for clustering with knn or several SVM: so separate the y's
 
-TODO - CHECKING OUTPUT OF DICTIONARY
-    1. COMPARE NUMBER OF CHARACTERS WITH AVERAGE SIZE OF X LENGTH WORD
 """

@@ -6,7 +6,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 """
-Count classe representation. Verify if label is correct?
+Count classe representation.
 """
 
 def count_analysis_data(word_labels, target_f):
