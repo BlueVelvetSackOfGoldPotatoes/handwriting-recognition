@@ -1,0 +1,15 @@
+name: hwr_unsupervised
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6.13
+  - cv2
+  - pandas
+  - re
+  - Pillow=8.4.0
+  - numpy
+  - json
+  - string
+  - sklearn
+variables:

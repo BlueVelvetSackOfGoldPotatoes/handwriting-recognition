@@ -1,0 +1,10 @@
+img/*
+word_img/*
+*.png
+*.jpeg
+*.jpg
+models/*
+models
+img
+word_img
+
