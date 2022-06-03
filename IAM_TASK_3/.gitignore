@@ -7,4 +7,5 @@ models/*
 models
 img
 word_img
+*.npy
 
