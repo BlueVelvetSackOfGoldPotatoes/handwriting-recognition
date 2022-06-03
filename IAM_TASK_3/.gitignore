@@ -8,4 +8,5 @@ models
 img
 word_img
 *.npy
+*.pkl
 
