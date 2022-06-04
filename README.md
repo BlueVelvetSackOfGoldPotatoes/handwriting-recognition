@@ -58,6 +58,9 @@ python3 run.py --folder <test-images-directory>
 ```
 3. The predictions will have been written to `results/*.txt`.
 
+### Extra scripts
+The folder `additional_code/` includes some of the code that was written in the process of investigating the problem, trying out different pipelines and models, or simply for convenience. These were not used in the final pipeline, but may nice to take a look at. The additional code includes processes such as binarization, smart padding and resizing, encoding and decoding labels, splitting up the original training data (also for k-fold cross-validation), defining a CRNN, creating a PyTorch dataset out of the images and ground-truths.
+
 ### Citation
 Codebase partially adapted from:
 ```
