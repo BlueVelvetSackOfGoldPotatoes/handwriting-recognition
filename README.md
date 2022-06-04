@@ -9,28 +9,14 @@ be appropriately updated once you are finished with the project. If necessary, t
 describe clearly in the README how we can start your container and give it access to the input and output directories. After your code is set up, we should be able to run each method by executing a command and providing paths to the input and output directories as command-line arguments. Again, make sure
 you describe how to do this in your README and avoid using hard-coded paths.
 
-
-# Links
-
-## Report
-https://www.overleaf.com/6159827179yfqjqdmdkcqs
  
 ## Dead Sea Scrolls Task 1 & 2
-. The character set (labeled data) can be downloaded from here:
-https://unishare.nl/index.php/s/353LkZ7YNo7Wwyb
-. Here are the JPEG images of the same format:
-https://unishare.nl/index.php/s/38rXAXYydNN5icX
-. Here is a list for those 27 characters,
-https://unishare.nl/index.php/s/sLQr3fWjmPQ2QQt
-. Example test-images can be downloaded from here:
-https://unishare.nl/index.php/s/nNWXP6zJoX9GEsS
-. To have an overall idea of how the Dead Sea Scrolls data look like, visit this site:
-https://www.deadseascrolls.org.il/
-. Python script which provides you with an example of how to create
-images, similar to your training data, using the font. The script can be downloaded from here:
-https://unishare.nl/index.php/s/CPR77ioHr2yiF34
 
-The output should be given by creating a separate text file containing the recognized text for each input image. We will provide a couple of sample output from the test data, during the third week’s tutorial session. To measure the performance, we will use a simplified version of Levenshtein distance.
+- Install all the required libraries using pip install -r requirements.txt
+- Run main.py in the format:
+	- python main.py c:\users\username\desktop\folder 
+	- where folder contains jpg images of Dead Sea Scrolls 
+-  Final txt files can be found in Final_output
 
 ## IAM Task 3
 . Download the IAM data from here (338 MB):
