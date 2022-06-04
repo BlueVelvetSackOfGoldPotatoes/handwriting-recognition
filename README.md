@@ -15,6 +15,7 @@ you describe how to do this in your README and avoid using hard-coded paths.
 - Install all the required libraries using pip install -r requirements.txt
 - Run main.py in the format:
 	- python main.py c:\users\username\desktop\folder 
+		- The console will ask you whether you wish to use a personal library. Please type yes to continue
 	- where folder contains jpg images of Dead Sea Scrolls 
 -  Final txt files can be found in Final_output
 
