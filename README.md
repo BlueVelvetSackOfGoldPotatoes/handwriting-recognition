@@ -12,11 +12,17 @@ you describe how to do this in your README and avoid using hard-coded paths.
  
 ## Dead Sea Scrolls Task 1 & 2
 
+Preparatory steps:
+- Python version == 3.8.13
+- Make sure you have a working installation of R (https://cran.r-project.org/bin/windows/base/)
 - Install all the required libraries using pip install -r requirements.txt
+- The model was compiled using cuDNN 8.1.0 and Cuda 11.2 - make sure you have these installed as well (conda example for installation: conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0)
+
+Running the model:
 - Run main.py in the format:
 	- python main.py c:\users\username\desktop\folder 
-		- The console will ask you whether you wish to use a personal library. Please type yes to continue
-	- where folder contains jpg images of Dead Sea Scrolls 
+	- where folder contains jpg images of binarized Dead Sea Scrolls
+- The console will ask you whether you wish to use a personal library. Please type yes to continue  
 -  Final txt files can be found in Final_output
 
 ## IAM Task 3
