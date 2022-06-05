@@ -27,7 +27,7 @@ pip install -r requirements.txt # installs the dependencies
 ```bash
 python main.py path/to/folder_with_jpg/located/somewhere
 ```
-	- where folder contains jpg images of binarized Dead Sea Scrolls
+- The folder should contain jpg images of binarized Dead Sea Scrolls
 - Final txt files can be found in the results folder
 
 ### Extra scripts
