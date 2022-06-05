@@ -14,7 +14,7 @@ cd path/to/folder_with_task1&2/located/somewhere
 ``` bash
 python3 -m venv venv # creates a virtualenv (venv) where dependencies will be installed
 source venv/bin/activate # activates the virtualenv
-pip install -r requirements.txt # installs the dependencies
+pip3 install -r requirements.txt # installs the dependencies
 ```
 - Executing the code above will install the Tensorflow package on your system. If you wish to run Tensorflow from GPU: the model was compiled using cuDNN 8.1.0 and Cuda 11.2, so please make sure you have these installed as well (conda example for installation: conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0)
 - Please make sure that you have the test images located inside of a folder
@@ -23,7 +23,7 @@ pip install -r requirements.txt # installs the dependencies
 - Please make sure that you're still located (terminal) in the root directory of Task 1 & 2.
 - Run main.py in the format:
 ```bash
-python main.py path/to/folder_with_jpg/located/somewhere
+python3 main.py path/to/folder_with_jpg/located/somewhere
 ```
 - The folder should contain jpg images of binarized Dead Sea Scrolls
 - Final txt files can be found in the results folder
