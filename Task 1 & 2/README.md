@@ -4,7 +4,7 @@
 
 - The code was built in Python version 3.8.13
 
-## Preparatory steps
+### Preparatory steps
 - Please follow these steps in the specified order
 - Make sure you have a working installation of the latest R (https://cran.r-project.org/bin/windows/base/) - an R version of at least 4.1.3 is required for installing and running the packages used
 - Ensure you have python(3) installed on your system.
@@ -21,7 +21,7 @@ pip install -r requirements.txt # installs the dependencies
 - Executing the code above will install the Tensorflow package on your system. If you wish to run Tensorflow from GPU: the model was compiled using cuDNN 8.1.0 and Cuda 11.2, so please make sure you have these installed as well (conda example for installation: conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0)
 - Please make sure that you have the test images located inside of a folder
 
-## Running the model
+### Running the model
 - Please make sure that you're still located (terminal) in the root directory of Task 1 & 2.
 - Run main.py in the format:
 ```bash
