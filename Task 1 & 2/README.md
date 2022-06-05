@@ -1,6 +1,4 @@
-# Handwriting Recognition
-
-## Dead Sea Scrolls Task 1 & 2
+# Handwriting Recognition Task 1 & 2: Dead Sea Scrolls 
 
 - The code was built in Python version 3.8.13
 
