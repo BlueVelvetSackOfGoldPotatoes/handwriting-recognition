@@ -1,0 +1,20 @@
+name: hwr_clustering
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # - python=3.6.13
+  - cv2
+  - pandas
+  - re
+  # - Pillow=8.4.0
+  - Pillow
+  - numpy
+  - json
+  - string
+  - sklearn
+  - skimage
+  - scipy
+  - pickle
+
+variables:
