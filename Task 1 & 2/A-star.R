@@ -1,4 +1,6 @@
-install.packages("opencv","magick","image.textlinedetector")
+install.packages("opencv", repos='http://cran.us.r-project.org')
+install.packages("magick", repos='http://cran.us.r-project.org')
+install.packages("image.textlinedetector", repos='http://cran.us.r-project.org')
 library(opencv)
 library(magick)
 library(image.textlinedetector)

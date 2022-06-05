@@ -147,7 +147,7 @@ def encode_single_sample(img_path, label):
     return {"image": img, "label": label}
 
 model = keras.models.load_model('trained_model')
-max_length = 15
+max_length = 50
 # Inference ----------------------------------
 # Get the prediction model by extracting layers till the output layer
 prediction_model = keras.models.Model(
@@ -172,7 +172,7 @@ def decode_batch_predictions(pred):
 
 
 
-rootdir23 = 'Final_output'
+rootdir23 = 'results'
 
 os.makedirs(rootdir23, exist_ok=True)
 
