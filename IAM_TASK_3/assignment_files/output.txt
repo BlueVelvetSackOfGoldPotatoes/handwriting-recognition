@@ -1,0 +1,4 @@
+input/imageExample.jpeg
+KNN:  ['.' 'the' 'the' 'the' 'the' 'the'] ['.' 'the' 'the' 'the' 'the' 'the'] ['.' 'the' 'the' 'the' 'the' 'the'] ['.' 'the' 'the' 'the' 'the' 'the'] ['.' 'the' 'the' 'the' 'the' 'the'] ['.' 'the' 'the' 'the' 'the' 'the']
+
+

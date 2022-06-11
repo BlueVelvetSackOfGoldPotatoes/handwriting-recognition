@@ -1,0 +1,4 @@
+Parameters: {'memory': None, 'steps': [('standardscaler', StandardScaler()), ('kneighborsclassifier', KNeighborsClassifier(n_neighbors=100))], 'verbose': False, 'standardscaler': StandardScaler(), 'kneighborsclassifier': KNeighborsClassifier(n_neighbors=100), 'standardscaler__copy': True, 'standardscaler__with_mean': True, 'standardscaler__with_std': True, 'kneighborsclassifier__algorithm': 'auto', 'kneighborsclassifier__leaf_size': 30, 'kneighborsclassifier__metric': 'minkowski', 'kneighborsclassifier__metric_params': None, 'kneighborsclassifier__n_jobs': None, 'kneighborsclassifier__n_neighbors': 100, 'kneighborsclassifier__p': 2, 'kneighborsclassifier__weights': 'uniform'}
+---------------------
+Mean Accuracy on the test set: 0.1126338329764454
+Rand Index: 0.01184149595201287

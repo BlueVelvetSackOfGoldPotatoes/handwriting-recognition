@@ -4,9 +4,9 @@ channels:
   - defaults
 dependencies:
   # - python=3.6.13
-  - cv2
+  - opencv
   - pandas
-  - re
+  - regex
   # - Pillow=8.4.0
   - Pillow
   - numpy

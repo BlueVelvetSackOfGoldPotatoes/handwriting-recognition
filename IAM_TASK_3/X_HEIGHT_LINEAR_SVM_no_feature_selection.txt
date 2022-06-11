@@ -1,0 +1,4 @@
+Parameters: {'memory': None, 'steps': [('standardscaler', StandardScaler()), ('linearsvc', LinearSVC(random_state=42, tol=1e-05))], 'verbose': False, 'standardscaler': StandardScaler(), 'linearsvc': LinearSVC(random_state=42, tol=1e-05), 'standardscaler__copy': True, 'standardscaler__with_mean': True, 'standardscaler__with_std': True, 'linearsvc__C': 1.0, 'linearsvc__class_weight': None, 'linearsvc__dual': True, 'linearsvc__fit_intercept': True, 'linearsvc__intercept_scaling': 1, 'linearsvc__loss': 'squared_hinge', 'linearsvc__max_iter': 1000, 'linearsvc__multi_class': 'ovr', 'linearsvc__penalty': 'l2', 'linearsvc__random_state': 42, 'linearsvc__tol': 1e-05, 'linearsvc__verbose': 0}
+---------------------
+Mean Accuracy on the test set: 0.07623126338329765
+Rand Index: 0.003550494331931145
